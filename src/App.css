@@ -1,0 +1,146 @@
+body {
+  background-image: url(https://gifs.eco.br/wp-content/uploads/2021/10/imagens-e-gifs-do-ceu-estrelado-0.gif);
+  background-size: 7%;
+  font-family: 'Star Jedi';
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  font-size: xx-large;
+  color: rgb(214, 218, 22);
+  width: 30%;
+  align-self: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  width: 12.3%
+}
+
+.system {
+  border: 1px solid black;
+  text-align: center;
+  font-size: x-large;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.planets {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  font-family: 'Droid Sans';
+}
+
+.missions-info {
+  text-align: center;
+  font-size: x-large;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.missions {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.mission {
+  width: 16%;
+  height: 16rem;
+  color: white;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1rem;
+  border: 3px white outset;
+  border-radius: 1rem;
+  background-image: url(https://gifs.eco.br/wp-content/uploads/2021/10/imagens-e-gifs-do-ceu-estrelado-0.gif);
+}
+
+#Mercúrio {
+  width: 1.5rem;
+  align-self: center;
+}
+
+#Vênus {
+  width: 2.5rem;
+  align-self: center;
+}
+
+#Terra {
+  width: 4rem;
+  align-self: center;
+}
+
+#Marte {
+  width: 3rem;
+  align-self: center;
+}
+
+#Júpiter {
+  width: 11rem;
+  align-self: center;
+}
+
+#Urano,
+#Netuno {
+  width: 6rem;
+  align-self: center;
+}
+
+#Mercúrio:hover,
+#Vênus:hover,
+#Terra:hover,
+#Marte:hover {
+  transform: scale(2.2);
+  transition: 400ms transform cubic-bezier(.42, 0, .65, 1.7);
+}
+
+#Júpiter:hover,
+#Saturno:hover,
+#Urano:hover,
+#Netuno:hover {
+  transform: scale(1.2);
+  transition: 400ms transform cubic-bezier(.42, 0, .65, 1.7);
+}
+
+.mission:hover {
+  transform: scale(1.2);
+  transition: 400ms transform cubic-bezier(.42, 0, .65, 1.7);
+}
+
+#final-consideration {
+  color: rgb(214, 218, 22);
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+}
+
+#quote {
+  font-size: xx-large;
+}
+
+#author {
+  font-size: xx-small;
+}
+
+.title {
+  border: 1rem white double;
+  width: 50%;
+  align-self: center;
+  margin-bottom: 1rem;
+}
